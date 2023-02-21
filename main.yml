@@ -1,0 +1,14 @@
+在……之上:
+  pull_request:
+    分支机构:[main]
+    路径:
+-'README.md'
+工作:
+  皮棉:
+    run-on:ubuntu-最新
+    步骤:
+-uses:actions/checkout@v2
+        和……一起:
+          提取深度:0
+-姓名:令人敬畏的林特
+        跑:./.github/workflows/repo_linter.sh
